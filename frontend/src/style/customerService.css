@@ -1,0 +1,46 @@
+.flex-row {
+  display: flex;
+  flex-direction: column;
+  min-height: 150px;
+  align-items: center;
+  justify-content: center;
+}
+
+.customer-service-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.section-1 {
+  margin: 30px;
+}
+
+.section-2 {
+  margin: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex-row > img {
+  width: 65px;
+  height: 65px;
+}
+
+@media screen and (max-width: 800px) {
+  .customer-service-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+  }
+
+  .flex-row {
+    width: 290px;
+    margin: auto;
+  }
+}

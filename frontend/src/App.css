@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  text-decoration: none;
+  color: #90caf9;
+}
